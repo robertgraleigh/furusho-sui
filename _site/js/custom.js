@@ -10,6 +10,6 @@ $(document).ready(function() {
   // ===========
   $('.ui.accordion').accordion();
   console.log("Hello world");
-
+  $('.test.modal').modal('attach events', '.test.card', 'show');
 
 });
