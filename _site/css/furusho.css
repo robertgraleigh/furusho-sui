@@ -331,7 +331,8 @@ a:hover {
 */
 
 .reviews__main {
-	padding-top: 250px;
+	padding-top: 350px;
+	background-position: top center;
 }
 
 .reviews__slider__wrapper {
