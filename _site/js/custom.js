@@ -10,6 +10,26 @@ $(document).ready(function() {
   // ===========
   $('.ui.accordion').accordion();
   console.log("Hello world");
-  $('.test.modal').modal('attach events', '.test.card', 'show');
+  // Modal Events
+  $('.infant-frenectomy.modal')
+  .modal('setting', 'closable', true)
+  .modal('attach events', '#infant-frenectomy', 'show')
+  ;
+
+  $('.fillings.modal')
+  .modal('setting', 'closable', true)
+  .modal('attach events', '#fillings', 'show')
+  ;
+
+  $('.infant-frenectomy.modal')
+  .modal('setting', 'closable', true)
+  .modal('attach events', '#infant-frenectomy', 'show')
+  ;
+
+  $('.infant-frenectomy.modal')
+  .modal('setting', 'closable', true)
+  .modal('attach events', '#infant-frenectomy', 'show')
+  ;
+
 
 });
