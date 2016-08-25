@@ -13,11 +13,11 @@ $(document).ready(function() {
 
   // Modal Events
 
-  $('.infant-frenectomy.modal')
+  $('.Infant.modal')
     .modal('setting', 'closable', true)
     .modal('attach events', '#infant-frenectomy', 'show');
 
-  $('.fillings.modal')
+  $('.Fillings.modal')
     .modal('setting', 'closable', true)
     .modal('attach events', '#fillings', 'show');
 
