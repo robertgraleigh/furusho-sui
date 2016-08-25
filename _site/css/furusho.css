@@ -76,10 +76,11 @@ h6.ui.header {
 	font-size: 18px;
 }
 
-.furusho.vertical-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.furusho.vertical-align {
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+
 }
 .furusho.price {
 	font-size:64px;
@@ -204,6 +205,8 @@ a:hover {
 .furusho.purple-btn {
 	background-color: #8117B7;
 }
+
+
 
 /*
 	Custom Furusho sections
