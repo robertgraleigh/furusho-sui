@@ -213,6 +213,8 @@ a:hover {
 
 .furusho.purple-btn {
 	background-color: #8117B7;
+	border:1px solid #FFF;
+	border-radius:0px;
 }
 
 
