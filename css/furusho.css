@@ -505,8 +505,18 @@ h5.about__lead-quote:before {
 	width: 100%;
 	z-index: 10;
 	top: 0;
+	color: #FFF;
 }
 
 .slick-slide {
 	position: relative;
+}
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.marquee__slide .furusho.button {
+	bottom: 40px;
+	position: fixed;
 }
