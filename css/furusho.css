@@ -245,3 +245,10 @@ a:hover {
 	background-size: cover;
 	height: 529px;
 }
+
+/*
+	Question and answer accordian
+*/
+.ui.accordion .title:not(.first) {
+	border-top: solid 1px #9B9B9B;
+}
