@@ -493,3 +493,20 @@ h5.about__lead-quote:before {
 	position: relative;
 	top: 30px;
 }
+
+
+/*
+	Marquee
+*/
+
+.slide-container {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	top: 0;
+}
+
+.slick-slide {
+	position: relative;
+}
