@@ -79,5 +79,15 @@ $(document).ready(function() {
     autoplay: true,
     autoplaySpeed: 4000
   });
+
+  $('.marquee__slider').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    arrows: false
+  });
   
 });
