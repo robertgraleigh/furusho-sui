@@ -20,7 +20,8 @@ title: Services
 	/#services-header
 -->
 
-<!--- INSERT HOTLINE WITHOUT ADDRESS -->
+<!-- pulls new patient hotline from _includes folder -->
+{% include new-patient-hotline.html %}
 
 <!-- 
 	Section: Pediatric Services
@@ -36,7 +37,7 @@ title: Services
 			<div class="ui row">
 				<div class="ui center aligned padded cards">
 					<div class="ui card">
-						<div class="ui slide masked reveal image">
+						<div class="ui image">
 							<img src="/img/services/frenectomy.jpg" class="visible content" alt="Infant Frenectomy image">
 						</div>
 						<div class="content">
@@ -46,7 +47,7 @@ title: Services
 						</div>
 					</div>
 					<div class="ui card">
-						<div class="ui slide masked reveal image">
+						<div class="ui image">
 							<img src="/img/services/fillings.jpg" class="visible content" alt="Fillings">
 						</div>
 						<div class="content">
@@ -56,7 +57,7 @@ title: Services
 						</div>
 					</div>
 					<div class="ui card">
-						<div class="ui slide masked reveal image">
+						<div class="ui image">
 							<img src="/img/services/crowns.jpg" class="visible content" alt="Crowns image">
 						</div>
 						<div class="content">
@@ -67,7 +68,7 @@ title: Services
 					</div>
 					<div class="ui divider"></div>
 					<div class="ui card">
-						<div class="ui slide masked reveal image">
+						<div class="ui image">
 							<img src="/img/services/space-maintainers.jpg" class="visible content" alt="Space Maintainers image">
 						</div>
 						<div class="content">
@@ -77,7 +78,7 @@ title: Services
 						</div>
 					</div>
 					<div class="ui card">
-						<div class="ui slide masked reveal image">
+						<div class="ui image">
 							<img src="/img/services/mouth-guards.jpg" class="visible content" alt="Mouth Guards image">
 						</div>
 						<div class="content">
@@ -87,7 +88,7 @@ title: Services
 						</div>
 					</div>
 					<div class="ui card">
-						<div class="ui slide masked reveal image">
+						<div class="ui image">
 							<img src="/img/services/pulpotomy.jpg" class="visible content" alt="Pulpotomy image">
 						</div>
 						<div class="content">
@@ -97,7 +98,7 @@ title: Services
 						</div>
 					</div>
 					<div class="ui card">
-						<div class="ui slide masked reveal image">
+						<div class="ui image">
 							<img src="/img/services/child-orthodontics.jpg" class="visible content" alt="Orthodontic Treatment image">
 						</div>
 						<div class="content">
@@ -107,7 +108,7 @@ title: Services
 						</div>
 					</div>
 					<div class="ui card">
-						<div class="ui slide masked reveal image">
+						<div class="ui image">
 							<img src="/img/services/sealants.jpg" class="visible content" alt="Sealants image">
 						</div>
 						<div class="content">
@@ -117,7 +118,7 @@ title: Services
 						</div>
 					</div>
 					<div class="ui card">
-						<div class="ui slide masked reveal image">
+						<div class="ui image">
 							<img src="/img/services/digital-xrays.jpg" class="visible content" alt="Digital x-rays image">
 						</div>
 						<div class="content">
@@ -134,6 +135,9 @@ title: Services
 <!-- 
 	/#pediatric-services
 -->
+
+<!-- pulls new patient hotline address from _includes folder -->
+{% include new-patient-hotline-address.html %}
 
 <!-- 
 	Header: Services Header
