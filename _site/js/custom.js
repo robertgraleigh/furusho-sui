@@ -9,7 +9,6 @@ $(document).ready(function() {
   // Semantic UI
   // ===========
   $('.ui.accordion').accordion();
-  console.log("Hello world");
 
   // Modal Events
 
@@ -20,6 +19,29 @@ $(document).ready(function() {
   $('.Fillings.modal')
     .modal('setting', 'closable', true)
     .modal('attach events', '#fillings', 'show');
+  $('.Crowns.modal')
+    .modal('setting', 'closable', true)
+    .modal('attach events', '#crowns', 'show');
+  $('.Space.modal')
+    .modal('setting', 'closable', true)
+    .modal('attach events', '#space-maintainers', 'show');
+  $('.Mouth.modal')
+    .modal('setting', 'closable', true)
+    .modal('attach events', '#mouth-guards', 'show');
+  $('.Pulpotomy.modal')
+    .modal('setting', 'closable', true)
+    .modal('attach events', '#pulpotomy', 'show');
+  $('.Orthodontic.modal')
+    .modal('setting', 'closable', true)
+    .modal('attach events', '#orthodontic-treatment', 'show');
+  $('.Sealants.modal')
+    .modal('setting', 'closable', true)
+    .modal('attach events', '#sealants', 'show');
+  $('.Digital.modal')
+    .modal('setting', 'closable', true)
+    .modal('attach events', '#digital-x-rays', 'show');
+
+
 
   // Glide Carousel
   // ==============
