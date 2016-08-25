@@ -1,0 +1,175 @@
+html {
+	padding: 10px;
+}
+
+body {
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: normal;
+	line-height: normal;
+}
+
+h2 {
+	font-size: 48px;
+	font-weight: normal;	
+	line-height: normal;	
+}
+
+h3 {
+	font-size: 36px;
+	font-weight: normal;	
+	line-height: normal;	
+}
+
+h4 {
+	font-size: ;
+	font-weight: normal;
+	line-height: normal;	
+}
+
+h5 {
+	font-size: ;
+	font-weight: normal;
+	line-height: normal;	
+}
+
+h6 {
+	font-size: ;
+	font-weight: normal;	
+	line-height: normal;	
+}
+
+h1.ui.header {
+	font-size: 60px;
+}
+h2.ui.header {
+	font-size: 60px;
+}
+h1.ui.header {
+	font-size: 60px;
+}
+h3.ui.header {
+	font-size: 60px;
+}
+h4.ui.header {
+	font-size: 60px;
+}
+h5.ui.header {
+	font-size: 60px;
+}
+h6.ui.header {
+	font-size: 60px;
+}
+a {
+	
+}
+
+/* 
+	Furusho Specific Typography
+*/
+.furusho.xtra-dark-purple-txt {
+	color: #391B48;
+}
+.furusho.dark-purple-txt {
+	color: #512A65;
+}
+.furusho.purple-txt {
+	color: #8117B7;
+}
+.furusho.green-txt {
+	color: #7ED321;
+}
+.furusho.white-txt {
+	color: #FFFFFF;
+}
+
+/*
+ 	Straight segment overrides default
+*/
+.straight.segment {
+	border-radius: 0px;
+}
+
+/* 
+	Furusho specific background styles
+*/
+.furusho.purple-bg {
+	background-color: #8117B7;
+}
+.furusho.light-purple-bg {
+	background-color: #EFEAF1;
+}
+.furusho.green-bg {
+	background-color: #7ED321;
+}
+.furusho.yellow-bg {
+	background-color: #FFD700;
+}
+.furusho.light-blue-bg{
+	background-color: #76BFB7;
+}
+.furusho.lightgray-bg{
+	background-color: #E5F0EF;
+}
+
+/* 
+	Furusho specific segment background overrides
+*/
+.furusho.grey-segment-bg {
+	background-color: #EFEAF1;
+}
+.furusho.light-blue-segment-bg {
+	background-color: #76BFB7;
+}
+.furusho.dark-grey-segment-bg {
+	background-color: #4A4A4A;
+}
+
+/* 
+	Furusho specific overlay for the slider images
+*/
+.furusho.purple-slider-bg {
+	background-color: #E5F0EF;
+	opacity: 80%;
+}
+
+/* 
+	Overrides the default purple card style
+*/
+
+.ui.furusho.purple.card {
+	border: solid 2px #8117B7;
+}
+
+.ui.furusho.fluid.purple.card {
+	border: solid 2px #8117B7;
+}
+
+/* 
+	 Overrides styles for the primary-nav
+*/
+
+#primary-nav {
+	background-color: #8117B7;
+	border-radius: 0px;
+}
+
+/* 
+	Furusho specific button stylings
+*/
+
+.furusho.purple-btn {
+	background-color: #8117B7;
+}
+
+/*
+	Custom Furusho sections
+*/
+
+#new-patient-specials{
+	background-image: url(/img/specials-bkgd.jpg);
+	background-position: center;
+}
