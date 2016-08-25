@@ -1,19 +1,26 @@
+---
+layout: default
+title: Meet The Team
+---
+
 <!-- 
 	Header: Primary Header
 -->
 <header id="meet-the-team-header" class="">
-	<div class="ui fluid container">
+	<div class="ui container">
 		<div class="ui grid">
 			<div class="ui nine wide left aligned column">
 				<div class="ui list">
-					<h3 class="font-accent-green">A caring &amp; positive
-dental experience
-for your kids</h4>
-					<h3 class="font-accent-purple">
-						Meet Drs. Kirk Kollmann
-&amp; Cissy Furusho</h3>
+					<h2 class="furusho dark-purple-txt">A caring &amp; positive <br>
+						dental experience <br>
+						for your kids
+					</h2>
+					<h3 class="furusho dark-purple-txt">
+						Meet Drs. Kirk Kollmann <br>
+						&amp; Cissy Furusho
+					</h3>
 				</div>
-			</div>				
+			</div>
 		</div>
 	</div>
 </header>
@@ -21,147 +28,190 @@ for your kids</h4>
 	/#meet-the-team-header
 -->
 
+<!-- is called by jekyll from the _includes folder -->
+{% include new-patient-hotline.html %}
+
 <!-- 
 	Section: Meet The Team
 -->
-<section id="meet-the-team-header" class="">
+<section id="meet-the-team-heading" class="ui furusho light-purple-bg">
 	<div class="ui container">
 		<div class="ui padded grid">
 			<div class="ui row">
-				<div class="ui sixteen wide column">
-					<h2 class="ui header">Meet The Team</h2>
+				<div class="ui sixteen wide center aligned column">
+					<h2 class="ui furusho purple-txt">Meet The Team</h2>
 				</div>
-			</div>
-			<div class="ui row">
-				<div class="ui nine wide column">
-					<img src="/img/bios/furusho-bio.jpg" alt="Cissy Furusho bio">
-				</div>
-				<div class="ui seven wide column">
-					<h3 class="font-accent-green">Cissy K. Furusho, DDS</h3>
-					<p class="font-accent-purple">
-						Dr. Cissy K. Furusho received her B.S. in biology from the University of Illinois, Champaign-Urbana and graduated with her D.D.S., her pediatric certificate, and her masters in oral biology from UIC College of Dentistry. She holds a certificate in Orofacial Myofunctional Therapy. She is highly involved in the American Association of Women Dentist and is also very active as a member in the American Academy of Pediatric Dentistry, the American Dental Association and the Chicago Dental Society. Dr. Furusho is also a clinical instructor at the University of Illinois at Chicago, College of Dentistry. She enjoys riding her bicycle and loves to bake and spend time with her family. Dr. Furusho is very excited to be working with her pediatric dentist Dr. Berman and feels very fortunate to have found a wonderful partner in Dr. Kollmann. She looks forward to being an important part in your children's lives!</p>
-				</div>
-			</div>	
-			<div class="ui row">
-				<div class="ui nine wide column">
-					<img src="/img/bios/kollmann-bio.jpg" alt="Kirk Kollmann bio">
-				</div>
-				<div class="ui seven wide column">
-					<h3 class="font-accent-green">Kirk B. Kollman, DMD</h3>
-					<p class="font-accent-purple">
-						Dr. Kirk Kollmann graduated from the University of Florida College of Dentistry and received his pediatric dental degree from Children's Hospital of Michigan in Detroit. Keeping with his hospital background, he is a clinical instructor and volunteers his time working with the Cleft Palate - Craniofacial Team at Children's Memorial Hospital. Dr. Kollmann has taken extensive continuing education in the field of Orafacial Myofunctional Therapist by the Academy of Orofacial Myofunctional Therapy. He serves as a spokesperson for the Chicago Dental Society and is involved in various aspects of organized dentistry. He loves to be the do-it-yourself craftsman, being proficient in electricity, carpentry, woodworking, plumbing, etc. Computers and gadgets are another one of his hobbies. He holds great respect for his partner Dr. Furusho</p>
-				</div>
-			</div>	
-			<div class="ui row">
-				<div class="ui six wide column">
-					<img src="/img/associations/aapd.png" alt="">
-				</div>
-				<div class="ui six wide column">
-					<img src="/img/associations/aapd.png" alt="">
-				</div>
-			</div>
 			</div>
 		</div>
+	</div>
+</section>
+
+<!-- 
+	Section: Meet The Team Furusho
+-->
+<section id="meet-the-team-furusho" class="ui furusho light-purple-bg">
+	<div class="ui container">
+		<div class="ui grid">
+			<div class="ui row">
+				<div class="ui four wide column">
+					<img src="/img/bios/furusho-bio.jpg" alt="Cissy Furusho bio">
+				</div>
+				<div class="ui ten wide column">
+					<h3 class="ui furusho dark-purple-txt">Cissy K. Furusho, DDS</h3>
+					<p class="ui">
+						Dr. Cissy K. Furusho received her B.S. in biology from the University of Illinois, Champaign-Urbana and graduated with her D.D.S., her pediatric certificate, and her masters in oral biology from UIC College of Dentistry. She holds a certificate in Orofacial Myofunctional Therapy. She is highly involved in the American Association of Women Dentist and is also very active as a member in the American Academy of Pediatric Dentistry, the American Dental Association and the Chicago Dental Society. Dr. Furusho is also a clinical instructor at the University of Illinois at Chicago, College of Dentistry. She enjoys riding her bicycle and loves to bake and spend time with her family. Dr. Furusho is very excited to be working with her pediatric dentist Dr. Berman and feels very fortunate to have found a wonderful partner in Dr. Kollmann. She looks forward to being an important part in your children's lives!</p>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 <!-- 
-	/#meet-the-team
+	Section: Meet The Team Furusho
 -->
+
+<!-- 
+	/# meet-the-team-furusho
+-->
+
+<!-- 
+	Section: Meet The Team Kollman
+-->
+<section id="meet-the-team-kollman" class="ui white segment">
+	<div class="ui container">
+		<div class="ui grid">
+			<div class="ui row">
+				<div class="ui eleven wide column">
+					<h3 class="ui furusho dark-purple-txt">Kirk B. Kollman, DMD</h3>
+					<p class="ui">
+						Dr. Kirk Kollmann graduated from the University of Florida College of Dentistry and received his pediatric dental degree from Children's Hospital of Michigan in Detroit. Keeping with his hospital background, he is a clinical instructor and volunteers his time working with the Cleft Palate - Craniofacial Team at Children's Memorial Hospital. Dr. Kollmann has taken extensive continuing education in the field of Orafacial Myofunctional Therapist by the Academy of Orofacial Myofunctional Therapy. He serves as a spokesperson for the Chicago Dental Society and is involved in various aspects of organized dentistry. He loves to be the do-it-yourself craftsman, being proficient in electricity, carpentry, woodworking, plumbing, etc. Computers and gadgets are another one of his hobbies. He holds great respect for his partner Dr. Furusho</p>
+				</div>				
+				<div class="ui four wide column">
+					<img src="/img/bios/kollmann-bio.jpg" alt="Kirk Kollmann bio">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- 
+	/#meet-the-team-kollman
+-->
+
+<!-- 
+	Section: Associations
+-->
+
+<section id="associations-section" class="ui">
+	<div class="ui container">
+		<div class="ui three column padded grid">
+			<div class="ui row">
+				<div class="ui column">
+					<img src="/img/associations/aapd.png" alt="">
+				</div>
+				<div class="ui  column">
+					<img src="/img/associations/aapd.png" alt="">
+				</div>
+				<div class="ui  column">
+					<img src="/img/associations/aapd.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- 
+	/ #Associations-section
+-->
+
 
 <!-- 
 	Section: Team Members
 -->
-<section id="team-members" class="">
+<section id="team-members" class="ui furusho light-purple-bg">
 	<div class="ui container">
 		<div class="ui padded grid">
-			<div class="ui cards">
-<div class="ui card">
-  <div class="ui slide masked reveal image">
-    <img src="/img/bios/adam-bio.jpg" class="visible content">
-  </div>
-  <div class="content">
-    <a class="header">Team Fu &amp; Hess</a>
-    <div class="meta">
-      <span class="date">Create in Sep 2014</span>
-    </div>
-  </div>
-</div>
-				<div class="ui card">
-  <div class="ui slide masked reveal image">
-    <img src="/img/bios/berman-bio.jpg" class="visible content">
-  </div>
-  <div class="content">
-    <a class="header">Team Fu &amp; Hess</a>
-    <div class="meta">
-      <span class="date">Create in Sep 2014</span>
-    </div>
-  </div>
-</div>
-<div class="ui card">
-  <div class="ui slide masked reveal image">
-    <img src="/img/bios/cassidy-bio.jpg" class="visible content">
-  </div>
-  <div class="content">
-    <a class="header">Team Fu &amp; Hess</a>
-    <div class="meta">
-      <span class="date">Create in Sep 2014</span>
-    </div>
-  </div>
-</div>
-<div class="ui card">
-  <div class="ui slide masked reveal image">
-    <img src="/img/bios/deneaqua-bio.jpg" class="visible content">
-  </div>
-  <div class="content">
-    <a class="header">Team Fu &amp; Hess</a>
-    <div class="meta">
-      <span class="date">Create in Sep 2014</span>
-    </div>
-  </div>
-</div>
-<div class="ui card">
-  <div class="ui slide masked reveal image">
-    <img src="/img/bios/letticia-bio.jpg" class="visible content">
-  </div>
-  <div class="content">
-    <a class="header">Team Fu &amp; Hess</a>
-    <div class="meta">
-      <span class="date">Create in Sep 2014</span>
-    </div>
-  </div>
-</div>
-<div class="ui card">
-  <div class="ui slide masked reveal image">
-    <img src="/img/bios/marisela.jpg" class="visible content">
-  </div>
-  <div class="content">
-    <a class="header">Team Fu &amp; Hess</a>
-    <div class="meta">
-      <span class="date">Create in Sep 2014</span>
-    </div>
-  </div>
-</div>
-<div class="ui card">
-  <div class="ui slide masked reveal image">
-    <img src="/img/bios/michael-bio.jpg" class="visible content">
-  </div>
-  <div class="content">
-    <a class="header">Team Fu &amp; Hess</a>
-    <div class="meta">
-      <span class="date">Create in Sep 2014</span>
-    </div>
-  </div>
-</div>
-<div class="ui card">
-  <div class="ui slide masked reveal image">
-    <img src="/img/bios/tanisha-bio.jpg" class="visible content">
-  </div>
-  <div class="content">
-    <a class="header">Team Fu &amp; Hess</a>
-    <div class="meta">
-      <span class="date">Create in Sep 2014</span>
-    </div>
-  </div>
-</div>				
+			<div class="ui row">
+				<div class="ui four wide column">
+					<div class="ui card">
+						<div class="ui slide masked reveal image">
+							<img src="/img/bios/adam-bio.jpg" class="visible content">
+						</div>
+						<div class="center aligned content">
+							<p class="ui furusho purple-txt">First Last</p>
+						</div>
+					</div>
+				</div>
+				<div class="ui four wide column">
+
+					<div class="ui card">
+						<div class="ui slide masked reveal image">
+							<img src="/img/bios/berman-bio.jpg" class="visible content">
+						</div>
+						<div class="center aligned content">
+							<p class="ui furusho purple-txt">First Last</p>
+						</div>
+					</div>
+				</div>
+				<div class="ui four wide column">
+					<div class="ui card">
+						<div class="ui slide masked reveal image">
+							<img src="/img/bios/cassidy-bio.jpg" class="visible content">
+						</div>
+						<div class="center aligned content">
+							<p class="ui furusho purple-txt">First Last</p>
+						</div>
+					</div>
+				</div>
+				<div class="ui four wide column">
+					<div class="ui card">
+						<div class="ui slide masked reveal image">
+							<img src="/img/bios/deneaqua-bio.jpg" class="visible content">
+						</div>
+						<div class="center aligned content">
+							<p class="ui furusho purple-txt">First Last</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ui row">
+				<div class="ui four wide column">
+					<div class="ui card">
+						<div class="ui slide masked reveal image">
+							<img src="/img/bios/letticia-bio.jpg" class="visible content">
+						</div>
+						<div class="center aligned content">
+							<p class="ui furusho purple-txt">First Last</p>
+						</div>
+					</div>
+				</div>
+				<div class="ui four wide column">
+					<div class="ui card">
+						<div class="ui slide masked reveal image">
+							<img src="/img/bios/marisela.jpg" class="visible content">
+						</div>
+						<div class="center aligned content">
+							<p class="ui furusho purple-txt">First Last</p>
+						</div>
+					</div>
+				</div>
+				<div class="ui four wide column">
+					<div class="ui card">
+						<div class="ui slide masked reveal image">
+							<img src="/img/bios/michael-bio.jpg" class="visible content">
+						</div>
+						<div class="center aligned content">
+							<p class="ui furusho purple-txt">First Last</p>
+						</div>
+					</div>
+				</div>
+				<div class="ui four wide column">
+					<div class="ui card">
+						<div class="ui slide masked reveal image">
+							<img src="/img/bios/tanisha-bio.jpg" class="visible content">
+						</div>
+						<div class="center aligned content">
+							<p class="ui furusho purple-txt">First Last</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -169,4 +219,7 @@ for your kids</h4>
 <!-- 
 	/#team-members
 -->
+
+<!-- is called by jekyll from the _includes folder -->
+{% include new-patient-hotline-address.html %}
 

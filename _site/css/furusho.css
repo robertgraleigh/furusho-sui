@@ -63,8 +63,18 @@ h5.ui.header {
 h6.ui.header {
 	font-size: 60px;
 }
+
 a {
 	
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* creates an easy uppercase text class */
+.uppercase-txt {
+	text-transform: uppercase;
 }
 
 /* 
@@ -81,6 +91,12 @@ a {
 }
 .furusho.green-txt {
 	color: #7ED321;
+}
+.furusho.light-green-txt {
+	color: #A5ED57;
+}
+.furusho.yellow-txt {
+	color: #FFD700;
 }
 .furusho.white-txt {
 	color: #FFFFFF;
@@ -168,6 +184,12 @@ a {
 /*
 	Custom Furusho sections
 */
+
+#meet-the-team-header{
+	background-image: url(/img/drs-slide.jpg);
+	background-position: top;
+	background-size: cover;
+}
 
 #new-patient-specials{
 	background-image: url(/img/specials-bkgd.jpg);
