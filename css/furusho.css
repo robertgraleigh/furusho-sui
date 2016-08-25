@@ -256,3 +256,19 @@ a:hover {
 .ui.accordion .title:not(.first) {
 	border-top: solid 1px #9B9B9B;
 }
+
+.furusho.fa-cirlce {
+	font-size: 30px;
+    width: 1.6em;
+    text-align: center;
+    line-height: 1.6em;
+    background: #666;
+    color: #fff;
+    border-radius: 0.8em; /* or 50% width & line-height */
+}
+
+@media (max-width:1115px) {
+	#primary-nav > li > a {
+	font-size:12px;
+	}
+}
