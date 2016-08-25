@@ -1,7 +1,7 @@
 <!--
 	Section: Questions and Answers
 -->
-<section id="questions-answers" class="ui furusho light-blue-bg">
+<section id="questions-answers" class="ui furusho lightgray-bg">
 
   <div class="ui container">
     <div class="ui padded grid">
@@ -13,11 +13,11 @@
       </div>
 
       <div class="ui row">
-        <div class="ui styled accordion">
+        <div class="ui accordion">
 
           {% for item in site.data.questions.items %}
 
-          <div class="title">
+          <div class="title {% if !forloop.first %}first{% endif%}">
             <i class="qa__icon fa fa-check-square-o"></i>
             {{ item.question }}
           </div>
