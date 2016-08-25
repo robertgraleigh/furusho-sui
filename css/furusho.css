@@ -281,3 +281,45 @@ a:hover {
 	font-size:12px;
 	}
 }
+
+/*
+	Team Member Carousel and Modals
+*/
+
+#Glide-tablet {
+	display: none;
+}
+
+#Glide-mobile {
+	display: none;
+}
+
+#team-members.cards {
+	justify-content: center;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+	#Glide {
+		display: none;
+	}
+	#Glide-tablet {
+		display: block;
+	}
+
+	#Glide-mobile {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#Glide {
+		display: none;
+	}
+	#Glide-tablet {
+		display: none;
+	}
+
+	#Glide-mobile {
+		display: block;
+	}
+}
