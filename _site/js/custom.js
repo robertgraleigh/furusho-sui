@@ -9,7 +9,6 @@ $(document).ready(function() {
   // Semantic UI
   // ===========
   $('.ui.accordion').accordion();
-  console.log("Hello world");
 
   // Modal Events
 
