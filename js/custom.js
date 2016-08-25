@@ -27,9 +27,5 @@ $(document).ready(function() {
   .glide({
     type: "carousel"
   });
-
-
-
-
-
+  
 });
