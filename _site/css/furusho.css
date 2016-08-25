@@ -192,6 +192,10 @@ a:hover {
 	border: solid 2px #8117B7;
 }
 
+.card:hover {
+	cursor:pointer;
+}
+
 /*
 	 Overrides styles for the primary-nav
 */
