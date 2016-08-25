@@ -76,10 +76,11 @@ h6.ui.header {
 	font-size: 18px;
 }
 
-.furusho.vertical-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.furusho.vertical-align {
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+
 }
 .furusho.price {
 	font-size:64px;
@@ -208,14 +209,17 @@ a:hover {
 	background-color: #8117B7;
 }
 
+
+
 /*
 	Custom Furusho sections
 */
 
 #meet-the-team-header{
 	background-image: url(/img/drs-slide.jpg);
-	background-position: top;
+	background-position: center;
 	background-size: cover;
+	height:529px;
 }
 
 #new-patient-specials{
@@ -227,7 +231,7 @@ a:hover {
 	background-image: url(/img/tour/tour2.jpg);
 	background-position: center;
 	background-size: cover;
-	height: 529px;	
+	height: 529px;
 }
 
 #services-header {
@@ -249,6 +253,7 @@ a:hover {
 	background-size: cover;
 	height: 529px;
 }
+
 
 /*
 	Question and answer accordian
