@@ -211,8 +211,9 @@ a:hover {
 
 #meet-the-team-header{
 	background-image: url(/img/drs-slide.jpg);
-	background-position: top;
+	background-position: center;
 	background-size: cover;
+	height:529px;
 }
 
 #new-patient-specials{
@@ -224,6 +225,7 @@ a:hover {
 	background-image: url(/img/tour/tour2.jpg);
 	background-position: center;
 	background-size: cover;
+	height:529px;
 }
 
 #services-header {
@@ -245,6 +247,7 @@ a:hover {
 	background-size: cover;
 	height: 529px;
 }
+
 
 /*
 	Question and answer accordian
