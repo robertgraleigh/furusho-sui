@@ -126,6 +126,9 @@ a:hover {
 .furusho.white-txt {
 	color: #FFFFFF;
 }
+.furusho.blockquote {
+	font-size: 24px;
+}
 
 /*
  	Straight segment overrides default
@@ -228,7 +231,7 @@ a:hover {
 	background-image: url(/img/tour/tour2.jpg);
 	background-position: center;
 	background-size: cover;
-	height:529px;
+	height: 529px;
 }
 
 #services-header {
