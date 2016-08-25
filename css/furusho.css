@@ -124,6 +124,9 @@ a:hover {
 .furusho.white-txt {
 	color: #FFFFFF;
 }
+.furusho.blockquote {
+	font-size: 24px;
+}
 
 /*
  	Straight segment overrides default
