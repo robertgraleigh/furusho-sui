@@ -61,7 +61,7 @@ $(document).ready(function() {
   //Request Appointment modal
   $('#request-appt-modal')
     .modal('setting', 'closeable', true)
-    .modal('attach events', '.furusho.purple-btn');
+    .modal('attach events', '.appt-modal-pop');
 
 
 
