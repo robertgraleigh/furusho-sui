@@ -283,3 +283,126 @@ a:hover {
 	font-size:12px;
 	}
 }
+
+/*
+	Team Member Carousel and Modals
+*/
+
+#Glide-tablet {
+	display: none;
+}
+
+#Glide-mobile {
+	display: none;
+}
+
+#team-members.cards {
+	justify-content: center;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+	#Glide {
+		display: none;
+	}
+	#Glide-tablet {
+		display: block;
+	}
+
+	#Glide-mobile {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#Glide {
+		display: none;
+	}
+	#Glide-tablet {
+		display: none;
+	}
+
+	#Glide-mobile {
+		display: block;
+	}
+}
+
+/*
+	Reviews section
+*/
+
+.reviews__main {
+	padding-top: 250px;
+}
+
+.reviews__slider__wrapper {
+	background: rgba(80, 42, 100, 0.8);
+	color: white;
+}
+
+.review__slide {
+	padding: 50px 0.5%;
+	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	.review__slide {
+		padding: 50px 1%;
+	}
+}
+
+.reviews__main .slick-prev {
+	display: inline-block;
+	position: absolute;
+	top: 45%;
+	z-index: 5;
+	font-size: 0px;
+	background: rgba(0,0,0,0);
+	border: none;
+	margin-left: 0.5%;
+}
+
+.reviews__main .slick-next {
+	display: inline-block;
+	position: absolute;
+	top: 45%;
+	right: 0;
+	font-size: 0px;
+	background: rgba(0,0,0,0);
+	border: none;
+	margin-right: 0.5%;
+}
+
+.reviews__main .slick-prev:focus {
+	outline: none;
+}
+.reviews__main .slick-next:focus {
+	outline: none;
+}
+
+.slick-next:before {
+	content: "\f054";
+	font-family: 'FontAwesome';
+	border: 1px solid white;
+	border-radius: 100%;
+	display: block;
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.slick-prev:before {
+	content: " \f053";
+	font-family: 'FontAwesome';
+	border: 1px solid white;
+	border-radius: 100%;
+	display: block;
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.stars {
+	color: #FFD700;
+}

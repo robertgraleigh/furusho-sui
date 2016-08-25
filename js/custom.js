@@ -41,6 +41,24 @@ $(document).ready(function() {
     .modal('setting', 'closable', true)
     .modal('attach events', '#digital-x-rays', 'show');
 
+  $('.adam.modal')
+    .modal('attach events', '.adam.card', 'show');
+  $('.berman.modal')
+    .modal('attach events', '.berman', 'show');
+  $('.cassidy.modal')
+    .modal('attach events', '.cassidy', 'show');
+  $('.marisela.modal')
+    .modal('attach events', '.marisela.card', 'show');
+  $('.letticia.modal')
+    .modal('attach events', '.letticia.card', 'show');
+  $('.deneaqua.modal')
+    .modal('attach events', '.deneaqua.card', 'show');
+  $('.michael.modal')
+    .modal('attach events', '.michael.card', 'show');
+  $('.tanisha.modal')
+    .modal('attach events', '.tanisha.card', 'show');
+
+
 
 
   // Glide Carousel
@@ -51,7 +69,15 @@ $(document).ready(function() {
   });
 
 
-
-
-
+  // Slick Carousel
+  // ==============
+  $('.reviews__slider').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    autoplay: true,
+    autoplaySpeed: 4000
+  });
+  
 });

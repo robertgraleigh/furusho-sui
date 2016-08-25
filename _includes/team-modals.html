@@ -1,20 +1,17 @@
-{% for item in site.data.services.items %}
+
+{% for item in site.data.team.items %}
 
 <div class="ui standard {{ item.modalId }} modal">
   <i class="close icon"></i>
   <div class="header">
-    {{ item.service }}
+    {{ item.name }}
   </div>
   <div class="content">
     <!--<div class="ui medium image">-->
       <!--<img src="/images/avatar/large/chris.jpg">-->
     <!--</div>-->
     <div class="description">
-
-      {% for foobar in item.descriptions %}
-        <p class="">{{ foobar }}</p>
-      {% endfor %}
-
+        <p class="">{{ item.text }}</p>
     </div>
   </div>
   <!--<div class="actions">-->

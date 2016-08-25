@@ -1,1 +1,5 @@
-<div class="ui massive star rating"></div>
+<div class="stars">
+  {% for i in (1...include.stars) %}
+    <i class="fa fa-star fa-star--custom fa-2x" aria-hidden="true"></i>
+  {% endfor %}
+</div>
