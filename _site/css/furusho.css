@@ -13,6 +13,9 @@ header {
 }
 
 section {
+	/*margin-bottom: 10px;*/
+}
+.margin-bottom {
 	margin-bottom: 10px;
 }
 
@@ -112,6 +115,9 @@ a:hover {
 }
 .furusho.purple-txt {
 	color: #8117B7;
+}
+.furusho.light-purple-txt {
+	color: #C775F1;
 }
 .furusho.dark-blue-txt {
 	color: #0D387C;
@@ -213,6 +219,8 @@ a:hover {
 
 .furusho.purple-btn {
 	background-color: #8117B7;
+	border:1px solid #FFF;
+	border-radius:0px;
 }
 
 
@@ -277,6 +285,19 @@ a:hover {
     color: #fff;
     border-radius: 0.8em; /* or 50% width & line-height */
 }
+
+/** FORMS **/
+
+.furusho.contact-field {
+	width:75%;
+	padding:5px;
+	border:1px solid #A6A6A6;
+}
+.furusho.contact-form {
+	text-align:center;
+}
+/* Rectangle 2: */
+
 
 @media (max-width:1115px) {
 	#primary-nav > li > a {
@@ -406,4 +427,84 @@ a:hover {
 
 .stars {
 	color: #FFD700;
+}
+
+/*
+	About section on home page
+*/
+
+
+.about__first-section {
+	padding: 60px 30px 150px 30px;
+	text-align: center;
+}
+
+.about__first-section p {
+	padding-top: 20px;
+}
+
+.about__image {
+	width: 200px;
+	margin: 0px auto;
+	position: relative;
+	top: -100px;
+}
+
+.about__image img {
+	border-radius: 100%;
+	border: 5px solid white;
+}
+
+.about__second-section > div:nth-child(2) {
+	position: relative;
+	top: -80px;
+}
+
+.about__section-section {
+	margin-bottom: -100px;
+}
+
+.about__more h3 {
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.about__more a {
+	margin-right: 20px;
+	text-decoration: underline;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: -0.29px;
+	text-align: right;
+	display: block;
+}
+
+.about__lead-quote {
+	font-size: 24px;
+	color: #4A4A4A;
+	letter-spacing: -0.39px;
+	line-height: 31px;
+	text-align: center;
+}
+
+h5.about__lead-quote:after {
+	font-family: Georgia-Bold;
+	font-size: 72px;
+	color: #8117B7;
+	letter-spacing: -1.16px;
+	line-height: 0px;
+	content: "”";
+	position: relative;
+	top: 30px;
+}
+
+h5.about__lead-quote:before {
+	font-family: Georgia-Bold;
+	font-size: 72px;
+	color: #8117B7;
+	letter-spacing: -1.16px;
+	line-height: 38px;
+	content: "“";
+	position: relative;
+	top: 30px;
 }
