@@ -10,26 +10,26 @@ $(document).ready(function() {
   // ===========
   $('.ui.accordion').accordion();
   console.log("Hello world");
+
   // Modal Events
+
   $('.infant-frenectomy.modal')
-  .modal('setting', 'closable', true)
-  .modal('attach events', '#infant-frenectomy', 'show')
-  ;
+    .modal('setting', 'closable', true)
+    .modal('attach events', '#infant-frenectomy', 'show');
 
   $('.fillings.modal')
-  .modal('setting', 'closable', true)
-  .modal('attach events', '#fillings', 'show')
-  ;
+    .modal('setting', 'closable', true)
+    .modal('attach events', '#fillings', 'show');
 
-  $('.infant-frenectomy.modal')
-  .modal('setting', 'closable', true)
-  .modal('attach events', '#infant-frenectomy', 'show')
-  ;
+  // Glide Carousel
+  // ==============
+  $("#Glide,#Glide-tablet,#Glide-mobile")
+  .glide({
+    type: "carousel"
+  });
 
-  $('.infant-frenectomy.modal')
-  .modal('setting', 'closable', true)
-  .modal('attach events', '#infant-frenectomy', 'show')
-  ;
+
+
 
 
 });
