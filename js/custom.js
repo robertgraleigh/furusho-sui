@@ -11,5 +11,11 @@ $(document).ready(function() {
   $('.ui.accordion').accordion();
   console.log("Hello world");
 
+  // Glide Carousel
+  // ==============
+  $("#Glide,#Glide-tablet,#Glide-mobile").glide({
+    type: "carousel"
+  });
+
 
 });
