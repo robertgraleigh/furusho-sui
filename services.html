@@ -3,7 +3,7 @@ layout: default
 title: Services
 ---
 
-<!-- 
+<!--
 	Header: Services Header
 -->
 <header id="services-header" class="">
@@ -16,14 +16,14 @@ title: Services
 		</div>
 	</div>
 </header>
-<!-- 
+<!--
 	/#services-header
 -->
 
 <!-- pulls new patient hotline from _includes folder -->
 {% include new-patient-hotline.html %}
 
-<!-- 
+<!--
 	Section: Pediatric Services
 -->
 <section id="pediatric-services" class="ui ">
@@ -35,8 +35,9 @@ title: Services
 				</div>
 			</div>
 			<div class="ui row">
-				<div class="ui centered cards">
-					<div class="ui card">
+
+				<div class="ui center aligned padded cards">
+					<div id="infant-frenectomy" class="ui card">
 						<div class="ui image">
 							<img src="/img/services/frenectomy.jpg" class="visible content" alt="Infant Frenectomy image">
 						</div>
@@ -46,7 +47,7 @@ title: Services
 							</div>
 						</div>
 					</div>
-					<div class="ui card">
+					<div id="fillings" class="ui card">
 						<div class="ui image">
 							<img src="/img/services/fillings.jpg" class="visible content" alt="Fillings">
 						</div>
@@ -56,7 +57,7 @@ title: Services
 							</div>
 						</div>
 					</div>
-					<div class="ui card">
+					<div id="pulptomoy" class="ui card">
 						<div class="ui image">
 							<img src="/img/services/crowns.jpg" class="visible content" alt="Crowns image">
 						</div>
@@ -67,13 +68,13 @@ title: Services
 						</div>
 					</div>
 					<div class="ui divider"></div>
-					<div class="ui card">
+					<div id="space-maintainers" class="ui card">
 						<div class="ui image">
 							<img src="/img/services/space-maintainers.jpg" class="visible content" alt="Space Maintainers image">
 						</div>
 						<div class="content">
 							<div class="center aligned description">
-								<span>Space Maintainence</span>
+								<span>Space Maintainers</span>
 							</div>
 						</div>
 					</div>
@@ -132,14 +133,14 @@ title: Services
 		</div>
 	</div>
 </section>
-<!-- 
+<!--
 	/#pediatric-services
 -->
 
 <!-- pulls new patient hotline address from _includes folder -->
 {% include new-patient-hotline-address.html %}
 
-<!-- 
+<!--
 	Header: Services Header
 -->
 <section id="about-fixing-teeth" class="ui furusho light-purple-bg">
@@ -160,17 +161,19 @@ title: Services
 
 	</div>
 </section>
-<!-- 
+<!--
 	/#services-header
 -->
 
 <!--- INSERT HOTLINE WITHOUT ADDRESS -->
 
-<!-- 
-<div class="ui modal">
+
+<!--- MODAL BOXES --->
+
+<div class="ui standard infant-frenectomy modal">
   <i class="close icon"></i>
   <div class="header">
-    Profile Picture
+    Infant Frenectomy
   </div>
   <div class="image content">
     <div class="ui medium image">
@@ -192,4 +195,29 @@ title: Services
     </div>
   </div>
 </div>
--->
+
+<div class="ui standard fillings modal">
+  <i class="close icon"></i>
+  <div class="header">
+    Fillings
+  </div>
+  <div class="image content">
+    <div class="ui medium image">
+      <img src="/images/avatar/large/chris.jpg">
+    </div>
+    <div class="description">
+      <div class="ui header">We've auto-chosen a profile image for you.</div>
+      <p>We've grabbed the following image from the <a href="https://www.gravatar.com" target="_blank">gravatar</a> image associated with your registered e-mail address.</p>
+      <p>Is it okay to use this photo?</p>
+    </div>
+  </div>
+  <div class="actions">
+    <div class="ui black deny button">
+      Nope
+    </div>
+    <div class="ui positive right labeled icon button">
+      Yep, that's me
+      <i class="checkmark icon"></i>
+    </div>
+  </div>
+</div>
