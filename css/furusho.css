@@ -22,38 +22,38 @@ h1 {
 }
 
 h2 {
-	font-family: "SF NS Display", sans-serif;	
+	font-family: "SF NS Display", sans-serif;
 	font-size: 48px;
-	font-weight: normal;	
-	line-height: normal;	
+	font-weight: normal;
+	line-height: normal;
 }
 
 h3 {
-	font-family: "SF NS Display", sans-serif;	
+	font-family: "SF NS Display", sans-serif;
 	font-size: 36px;
-	font-weight: normal;	
-	line-height: normal;	
+	font-weight: normal;
+	line-height: normal;
 }
 
 h4 {
-	font-family: "SF NS Display", sans-serif;	
-	font-size: ;
+	font-family: "SF NS Display", sans-serif;
+	font-size: 26px;
 	font-weight: normal;
-	line-height: normal;	
+	line-height: normal;
 }
 
 h5 {
-	font-family: "SF NS Display", sans-serif;	
-	font-size: ;
+	font-family: "SF NS Display", sans-serif;
+	font-size: 20px;
 	font-weight: normal;
-	line-height: normal;	
+	line-height: normal;
 }
 
 h6 {
-	font-family: "SF NS Display", sans-serif;	
-	font-size: ;
-	font-weight: normal;	
-	line-height: normal;	
+	font-family: "SF NS Display", sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: normal;
 }
 
 h1.ui.header {
@@ -62,20 +62,18 @@ h1.ui.header {
 h2.ui.header {
 	font-size: 48px;
 }
-h1.ui.header {
-	font-size: 60px;
-}
+
 h3.ui.header {
-	font-size: 60px;
+	font-size: 36px;
 }
 h4.ui.header {
-	font-size: 60px;
+	font-size: 26px;
 }
 h5.ui.header {
-	font-size: 60px;
+	font-size: 20px;
 }
 h6.ui.header {
-	font-size: 60px;
+	font-size: 18px;
 }
 
 .furusho.vertical-center {
@@ -83,9 +81,12 @@ h6.ui.header {
   align-items: center;
   justify-content: center;
 }
+.furusho.price {
+	font-size:64px;
+}
 
 a {
-	
+
 }
 
 a:hover {
@@ -97,7 +98,7 @@ a:hover {
 	text-transform: uppercase;
 }
 
-/* 
+/*
 	Furusho Specific Typography
 */
 .furusho.xtra-dark-purple-txt {
@@ -132,7 +133,7 @@ a:hover {
 	border-radius: 0px;
 }
 
-/* 
+/*
 	Furusho specific background styles
 */
 .furusho.purple-bg {
@@ -154,7 +155,7 @@ a:hover {
 	background-color: #E5F0EF;
 }
 
-/* 
+/*
 	Furusho specific segment background overrides
 */
 .furusho.grey-segment-bg {
@@ -167,7 +168,7 @@ a:hover {
 	background-color: #4A4A4A;
 }
 
-/* 
+/*
 	Furusho specific overlay for the slider images
 */
 .furusho.purple-slider-bg {
@@ -175,7 +176,7 @@ a:hover {
 	opacity: 80%;
 }
 
-/* 
+/*
 	Overrides the default purple card style
 */
 
@@ -187,7 +188,7 @@ a:hover {
 	border: solid 2px #8117B7;
 }
 
-/* 
+/*
 	 Overrides styles for the primary-nav
 */
 
@@ -196,7 +197,7 @@ a:hover {
 	border-radius: 0px;
 }
 
-/* 
+/*
 	Furusho specific button stylings
 */
 
@@ -244,4 +245,3 @@ a:hover {
 	background-size: cover;
 	height: 529px;
 }
-
