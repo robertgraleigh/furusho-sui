@@ -195,3 +195,8 @@ a:hover {
 	background-image: url(/img/specials-bkgd.jpg);
 	background-position: center;
 }
+
+#patients-header{
+	background-image: url(/img/tour/tour2.jpg);
+	background-position: center;
+}
