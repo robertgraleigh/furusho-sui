@@ -47,26 +47,58 @@
 	Header: Primary Header
 -->
 <header id="primary-header" class="">
-	<div class="ui fluid container">
-		<div class="ui grid">
-			<div class="ui nine wide column">
-				<img src="/img/furusho-masthead-logo.png" alt="Dentistry for Kids logo">
-			</div>
-			<div class="ui seven wide column">
-				<div class="ui list">
-					<h3 class="font-accent-green">Just off Edens Expressway (Hwy&nbsp;94)</h4>
-					<h3 class="font-accent-purple">
-						New Patients: <a href="tel:+18885407885"><b>(888) 540-7885</b></a></h3>
-					<h3>
-						Existing Patients: <a href="tel:+17735450007">(773) 545-0007</a>
-					</h3>
+	<div class="ui container">
+		<div class="ui padded grid">
+			<div class="ui row">
+				<div class="ui nine wide column">
+					<img src="/img/furusho-masthead-logo.png" alt="Dentistry for Kids logo">
 				</div>
-			</div>				
+				<div class="ui six wide column">
+					<ul class="ui list">
+						<li class="ui item"><h3 class="font-accent-green">Just off Edens Expressway (Hwy&nbsp;94)</h3></li>
+					<li class="ui item"><h3 class="font-accent-purple">
+						New Patients: <a href="tel:+18885407885"><b>(888) 540-7885</b></a></h3></li>
+						<li class="ui item"><h3>
+						Existing Patients: <a href="tel:+17735450007">(773) 545-0007</a>
+							</h3></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</div>
 </header>
 <!-- 
 	/#primary-header
+-->
+
+<!-- 
+	Nav: Primary Nav
+-->
+<nav id="primary-nav" class="ui seven item sticky menu">
+		<li class="ui item">
+			<a href="index.html#section-specials" >New Patient Specials</a>
+		</li>
+		<li class="ui item">
+			<a href="index.html#section-reviews">Patient Reviews</a>
+		</li>
+		<li class="ui item">
+			<a href="index.html#section-specials" >Meet the Team</a>
+		</li>
+		<li class="ui item">
+			<a href="index.html#section-reviews">Patients</a>
+		</li>		
+		<li class="ui item">
+			<a href="index.html#section-specials" >Services</a>
+		</li>		
+		<li class="ui item" >
+			<a href="">Infant Frenectomy</a>
+		</li>
+		<li class="ui item" >
+			<a href="">Contact</a>
+		</li>		
+</nav>
+<!-- 
+	/#primary-nav
 -->
 
 <!--
@@ -118,16 +150,16 @@
 <!-- 
 	Section: Contact Info
 -->
-<section id="contact-info">
+<section id="contact-info" class="ui inverted light blue segment">
 	<div class="ui container">
-		<div class="ui grid">
+		<div class="ui padded grid">
 			<div class="ui row">
-				<div class="ui eight wide column">
+				<div class="ui six wide column">
 					<p>New Patient Hotline</p>
 					<h2>(888) 540-7885</h2>
 				</div>
-				<div class="ui eight wide column">
-					<a class="ui basic button">Request Appointment</a>
+				<div class="ui six wide column">
+					<a class="ui massive basic blue button">Request Appointment</a>
 				</div>
 			</div>
 			<div class="ui row">
@@ -212,7 +244,7 @@
 		</div>
 		<div class="ui row">
 			<div class="ui centered cards">
-				<div class="ui card">
+				<div class="ui purple card">
 					<div class="ui content">
 						<h3 class="ui header">Children's New Patient&nbsp;Dental Exam</h3>
 						<h2 class="font-accent-purple">$75</h2>
@@ -221,7 +253,7 @@
 					<p>(D0150, D0272)</p>
 				</div>
 				</div>
-				<div class="ui card">
+				<div class="ui purple card">
 					<h3 class="ui header">Children's Dental&nbsp;Cleaning and Fluoride</h3>
 					<h4 class="ui header">$45</h4>
 					<p class="ui description">Save $52</p>
@@ -232,12 +264,12 @@
 		</div>
 		<div class="ui row">
 			<div class="ui centered cards">
-				<div class="ui card">
+				<div class="ui purple card">
 				<h2 class="font-accent-purple">FREE</h2>
 				<h3 class="font-accent-purple">Prenatal Consultation</h3>
 				<p>Expecting parents are encouraged to call us for a brief consultation regarding infant dental care and what to expect in the early years.</p>
 				</div>
-			<div class="ui card">
+			<div class="ui purple card">
 				<h2 class="font-accent-purple">FREE</h2>
 				<h3 class="font-accent-purple">Children Under Two</h3>
 				<p>Bring your child in before his or her second birthday for a free exam and oral hygiene instruction.</p>
@@ -247,25 +279,33 @@
 	</div>
 </section>
 
-
-	<div class="specials__content">
-		<div class="row row-height-wrapper">
-			<div class="specials__tile col-sm-6 col-md-4 col-md-offset-2">
-
+<!-- 
+	Section: #new-patient-hotline
+-->	
+<section id="new-patient-hotline" class="ui inverted grey segment">
+	<div class="ui centered padded grid">
+		<div class="ui row">
+			<div class="ui six wide column">
+				<h2 class="ui right aligned header">New Patient Hotline</h2>
+				<h3 class="ui right aligned header"><b>(888) 540-7885</b></h3>
 			</div>
-			<div class="specials__tile col-sm-6 col-md-4">
-
+			<div class="ui six wide column">
+				<a class="ui massive blue button">Request appointment</a>
 			</div>
 		</div>
-		<div class="row row-height-wrapper">
-
-
-		</div>
+		<div class="ui divider"></div>
+			<div class="ui row">
+				<div class="row row-height-wrapper">
+					<address class="ui center aligned text">
+						4801 West Peterson, Suite 410 <br>
+						Chicago, IL 60646 
+					</address>
+				</div>
+			</div>
 	</div>
 </section>
-
 <!-- 
-	/ #new-patient-contact
+	/ #new-patient-hotline
 -->	
 
   <section id="section-reviews" class="reviews background-light-purple">
