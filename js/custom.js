@@ -4,8 +4,20 @@
 
 $(document).ready(function() {
 
+    $('a[href*="#"]').on('click', function (e) {
+      if (!($(this.hash).length)) return true;
 
+      e.preventDefault();
 
+      var target = this.hash;
+      var $target = $(target);
+
+      $('html, body').stop().animate({
+        'scrollTop': $target.offset().top - parseInt($(this).attr('data-offset'))
+      }, 900, 'swing', function () {
+        window.location.hash = target;
+      });
+    });
   // Semantic UI
   // ===========
   $('.ui.accordion').accordion();
@@ -123,5 +135,7 @@ $(document).ready(function() {
       }
     ]
   });
-  
+
 });
+
+
