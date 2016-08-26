@@ -572,3 +572,13 @@ h5.about__lead-quote:before {
 	top:10px;
 	color:#000;
 }
+
+/*Team slick slider*/
+
+.team-member {
+	text-align: center;
+}
+
+.team-member img {
+	margin: 0px auto;
+}
