@@ -222,6 +222,9 @@ a:hover {
 	border:1px solid #FFF;
 	border-radius:0px;
 }
+.ui.purple.button {
+	background-color:#8117B7;
+}
 
 
 
@@ -599,8 +602,4 @@ h5.about__lead-quote:before {
 }
 .open-sans {
 	font-family:Open Sans;
-}
-
-.padding-bottom-10 {
-	padding-bottom:10px;
 }
