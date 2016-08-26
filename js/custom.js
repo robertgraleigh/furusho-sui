@@ -100,6 +100,7 @@ $(document).ready(function() {
     dots: true,
     infinite: true,
     speed: 300,
+    autoplay: true,
     slidesToShow: 4,
     slidesToScroll: 4,
     prevArrow: "<button type='button' class='slick-prev team-slick-nav'>Previous</button>",
@@ -128,6 +129,8 @@ $(document).ready(function() {
     dots: true,
     infinite: true,
     speed: 300,
+    autoplay: true,
+    autoplaySpeed: 3000,
     slidesToShow: 3,
     slidesToScroll: 3,
     prevArrow: "<button type='button' class='slick-prev team-slick-nav'>Previous</button>",
@@ -136,6 +139,7 @@ $(document).ready(function() {
       {
         breakpoint: 900,
         settings: {
+          autoplaySpeed: 2000,
           slidesToShow: 2,
           slidesToScroll: 2
         }
