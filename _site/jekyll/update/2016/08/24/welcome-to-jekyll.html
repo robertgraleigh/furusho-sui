@@ -121,6 +121,22 @@
 	/#primary-nav
 -->
 
+<div class="ui borderless main menu furusho purple-bg">
+	<a href="#" class="ui right floated dropdown item">
+		<i class="fa fa-bars fa-fw furusho white-txt"></i><span class="furusho white-txt">MENU</span> 
+		<i class="fa fa-caret-down fa-fw furusho white-txt"></i>
+		<div class="menu">
+			<div class="item">New Patient Specials</div>
+			<div class="item">Patient Reviews</div>
+			<div class="item">Meet The Team</div>
+			<div class="item">Patients</div>		
+			<div class="item">Services</div>
+			<div class="item">Infant Frenectomy</div>
+			<div class="item">Contact</div>
+		</div>
+	</a>
+</div>
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -195,6 +211,34 @@
 <script src="js/glide/glide.js"></script>
 
 <script src="js/custom.js"></script>
+
+ <script>
+  $(document)
+    .ready(function() {
+
+      // fix main menu to page on passing
+      $('.main.menu').visibility({
+        type: 'fixed'
+      });
+      $('.overlay').visibility({
+        type: 'fixed',
+        offset: 80
+      });
+
+      // lazy load images
+      $('.image').visibility({
+        type: 'image',
+        transition: 'vertical flip in',
+        duration: 500
+      });
+
+      // show dropdown on hover
+      $('.main.menu  .ui.dropdown').dropdown({
+        on: 'hover'
+      });
+    })
+  ;
+  </script>
 
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
