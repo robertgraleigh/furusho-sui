@@ -1,0 +1,39 @@
+<div id="request-appt-modal" class="ui modal">
+    <div class="header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+            aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Request an Appointment</h4>
+        </div>
+    <div class="content">
+        <h5>YES! Please contact me to schedule an appointment or answer any questions I might still have:</h5>
+        <form id="mail-form" action="//web-api.tysonsteele.com/v1/webprops/KEY/notify">
+            <div class="container center">
+                <div class="row appointment_input_row form-group">
+                    <div class="col-xs-4">
+                        <label for="name">My name:</label>
+                    </div>
+                    <div class="col-xs-8">
+                        <input type="text" required name="name" id="name" class="form-control appointment_form"/>
+                    </div>
+                </div>
+                <div class="row appointment_input_row form-group">
+                    <div class="col-xs-4">
+                        <label for="name">Email:</label>
+                    </div>
+                    <div class="col-xs-8">
+                        <input type="email" required name="email" id="email" class="form-control appointment_form"/>
+                    </div>
+                </div>
+                <div class="row appointment_input_row form-group">
+                    <div class="col-xs-4">
+                        <label for="name">Phone #:</label>
+                    </div>
+                    <div class="col-xs-8">
+                        <input type="text" required name="phone" id="phone" class="form-control appointment_form"/>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-danger btn-lg">Request Appointment</button>
+            </div>
+        </form>
+    </div>
+</div>

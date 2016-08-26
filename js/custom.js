@@ -41,6 +41,7 @@ $(document).ready(function() {
     .modal('setting', 'closable', true)
     .modal('attach events', '#digital-x-rays', 'show');
 
+    //Team Member Modals
   $('.adam.modal')
     .modal('attach events', '.adam.card', 'show');
   $('.berman.modal')
@@ -57,6 +58,10 @@ $(document).ready(function() {
     .modal('attach events', '.michael.card', 'show');
   $('.tanisha.modal')
     .modal('attach events', '.tanisha.card', 'show');
+  //Request Appointment modal
+  $('#request-appt-modal')
+    .modal('setting', 'closeable', true)
+    .modal('attach events', '.appt-modal-pop');
 
 
 
