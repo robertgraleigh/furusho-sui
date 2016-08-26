@@ -572,21 +572,13 @@ h5.about__lead-quote:before {
 	top:10px;
 	color:#000;
 }
-.furusho.font-bold {
-	font-weight:500;
-}
-.furusho.offer-ends-font {
-	font-size:24px;
-}
-.furusho.font-extra-bold {
-	font-weight:700;
 
 /*Team slick slider*/
 
 .team-member {
 	text-align: center;
 }
-.associations-slide img,
+
 .team-member img {
 	margin: 0px auto;
 }
