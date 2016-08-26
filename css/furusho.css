@@ -372,7 +372,7 @@ a:hover {
 	}
 }
 
-.reviews__main .slick-prev {
+ .slick-prev {
 	display: inline-block;
 	position: absolute;
 	top: 45%;
@@ -383,7 +383,7 @@ a:hover {
 	margin-left: 0.5%;
 }
 
-.reviews__main .slick-next {
+ .slick-next {
 	display: inline-block;
 	position: absolute;
 	top: 45%;
@@ -394,10 +394,10 @@ a:hover {
 	margin-right: 0.5%;
 }
 
-.reviews__main .slick-prev:focus {
+ .slick-prev:focus {
 	outline: none;
 }
-.reviews__main .slick-next:focus {
+ .slick-next:focus {
 	outline: none;
 }
 
@@ -405,6 +405,7 @@ a:hover {
 	content: "\f054";
 	font-family: 'FontAwesome';
 	border: 1px solid white;
+	color: #FFF;
 	border-radius: 100%;
 	display: block;
 	width: 30px;
@@ -417,6 +418,7 @@ a:hover {
 	content: " \f053";
 	font-family: 'FontAwesome';
 	border: 1px solid white;
+	color: #FFF;
 	border-radius: 100%;
 	display: block;
 	width: 30px;
