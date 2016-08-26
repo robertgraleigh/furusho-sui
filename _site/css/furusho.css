@@ -266,6 +266,7 @@ a:hover {
 	background-position: center;
 	background-size: cover;
 	height: 529px;
+	position: inherit;
 }
 
 
@@ -537,10 +538,6 @@ h5.about__lead-quote:before {
 	position: fixed;
 }
 
-#request-appt-modal {
-	max-height:400px;
-}
-
 .form-error {
   color: #D56724;
   margin: 0 0 20px 0;
@@ -557,6 +554,18 @@ h5.about__lead-quote:before {
 
 
 /* CLOSE BUTTON ON MODALS */
+
+.marquee--captioned:after {
+	display: block;
+	position: absolute;
+	content: "Image Capture: Nov 2015 ©2016 Google";
+	bottom: 0px;
+	right: 0px;
+	background-color: #434343;
+	color: #FFF;
+	padding: 2px;
+	font-size: 10px;
+}
 #request-appt-modal > i {
 	position:relative;
 	left:-15px;
