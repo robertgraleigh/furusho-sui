@@ -590,3 +590,11 @@ h5.about__lead-quote:before {
 .team-member img {
 	margin: 0px auto;
 }
+
+#marquee-slide-container {
+	padding:30px;
+	padding-top:80px;
+}
+.open-sans {
+	font-family:Open Sans;
+}
