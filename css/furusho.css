@@ -239,6 +239,7 @@ a:hover {
 #new-patient-specials{
 	background-image: url(/img/specials-bkgd.jpg);
 	background-position: center;
+	padding-bottom:20px;
 }
 
 #patients-header{
