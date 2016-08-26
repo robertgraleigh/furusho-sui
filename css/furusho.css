@@ -431,6 +431,7 @@ a:hover {
 
 .stars {
 	color: #FFD700;
+	padding-bottom:40px;
 }
 
 /*
@@ -598,4 +599,8 @@ h5.about__lead-quote:before {
 }
 .open-sans {
 	font-family:Open Sans;
+}
+
+.padding-bottom-10 {
+	padding-bottom:10px;
 }
