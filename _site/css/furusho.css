@@ -528,6 +528,15 @@ h5.about__lead-quote:before {
 .slick-slide {
 	position: relative;
 }
+
+.slick-next {
+	right: 10px;
+}
+
+.slick-prev {
+	left: 5px;
+}
+
 .row {
 	margin-right: 0px;
 	margin-left: 0px;
@@ -536,6 +545,9 @@ h5.about__lead-quote:before {
 .marquee__slide .furusho.button {
 	bottom: 40px;
 	position: fixed;
+}
+.marquee__slide {
+ position: relative;
 }
 
 .form-error {
