@@ -399,10 +399,10 @@ a:hover {
 	margin-right: 0.5%;
 }
 
- .slick-prev:focus {
+.slick-prev:focus {
 	outline: none;
 }
- .slick-next:focus {
+.slick-next:focus {
 	outline: none;
 }
 
@@ -533,6 +533,15 @@ h5.about__lead-quote:before {
 .slick-slide {
 	position: relative;
 }
+
+.slick-next {
+	right: 10px;
+}
+
+.slick-prev {
+	left: 5px;
+}
+
 .row {
 	margin-right: 0px;
 	margin-left: 0px;
@@ -541,6 +550,9 @@ h5.about__lead-quote:before {
 .marquee__slide .furusho.button {
 	bottom: 40px;
 	position: fixed;
+}
+.marquee__slide {
+ position: relative;
 }
 
 .form-error {
@@ -584,7 +596,8 @@ h5.about__lead-quote:before {
 	font-size:24px;
 }
 .furusho.font-extra-bold {
-	font-weight:700;
+	font-weight: 700;
+}
 
 /*Team slick slider*/
 
@@ -592,6 +605,9 @@ h5.about__lead-quote:before {
 	text-align: center;
 }
 
+.associations-slide img {
+	margin: 0px auto;
+}
 .team-member img {
 	margin: 0px auto;
 }
