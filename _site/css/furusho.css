@@ -584,6 +584,7 @@ h5.about__lead-quote:before {
 	top:10px;
 	color:#000;
 }
+<<<<<<< HEAD
 .furusho.font-bold {
 	font-weight:500;
 }
@@ -593,6 +594,8 @@ h5.about__lead-quote:before {
 .furusho.font-extra-bold {
 	font-weight: 700;
 }
+=======
+>>>>>>> 6f9b9e90e0d766e79927dd789f00d86a784f2e09
 
 /*Team slick slider*/
 
@@ -600,9 +603,12 @@ h5.about__lead-quote:before {
 	text-align: center;
 }
 
+<<<<<<< HEAD
 .associations-slide img {
 	margin: 0px auto;
 }
+=======
+>>>>>>> 6f9b9e90e0d766e79927dd789f00d86a784f2e09
 .team-member img {
 	margin: 0px auto;
 }
