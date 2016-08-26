@@ -395,10 +395,10 @@ a:hover {
 	margin-right: 0.5%;
 }
 
- .slick-prev:focus {
+.slick-prev:focus {
 	outline: none;
 }
- .slick-next:focus {
+.slick-next:focus {
 	outline: none;
 }
 
@@ -591,14 +591,18 @@ h5.about__lead-quote:before {
 	font-size:24px;
 }
 .furusho.font-extra-bold {
-	font-weight:700;
+	font-weight: 700;
+}
 
 /*Team slick slider*/
 
 .team-member {
 	text-align: center;
 }
-.associations-slide img,
+
+.associations-slide img {
+	margin: 0px auto;
+}
 .team-member img {
 	margin: 0px auto;
 }
