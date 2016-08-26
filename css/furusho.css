@@ -575,3 +575,9 @@ h5.about__lead-quote:before {
 .furusho.font-bold {
 	font-weight:500;
 }
+.furusho.offer-ends-font {
+	font-size:24px;
+}
+.furusho.font-extra-bold {
+	font-weight:700;
+}
