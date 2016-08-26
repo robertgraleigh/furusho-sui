@@ -572,3 +572,6 @@ h5.about__lead-quote:before {
 	top:10px;
 	color:#000;
 }
+.furusho.font-bold {
+	font-weight:500;
+}
