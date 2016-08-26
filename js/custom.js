@@ -66,16 +66,6 @@ $(document).ready(function() {
   })
 
 
-
-
-  // Glide Carousel
-  // ==============
-  $("#Glide,#Glide-tablet,#Glide-mobile")
-  .glide({
-    type: "carousel"
-  });
-
-
   // Slick Carousel
   // ==============
   $('.reviews__slider').slick({
@@ -104,6 +94,34 @@ $(document).ready(function() {
     slidesToShow: 1,
     autoplay: true,
     autoplaySpeed: 4000
+  });
+
+  $('.team-slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    prevArrow: "<button type='button' class='slick-prev team-slick-nav'>Previous</button>",
+    nextArrow: "<button type='button' class='slick-next team-slick-nav'>Next</button>",
+    responsive: [
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 550,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 6000
+        }
+      }
+    ]
   });
   
 });

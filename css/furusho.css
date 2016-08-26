@@ -580,4 +580,13 @@ h5.about__lead-quote:before {
 }
 .furusho.font-extra-bold {
 	font-weight:700;
+
+/*Team slick slider*/
+
+.team-member {
+	text-align: center;
+}
+
+.team-member img {
+	margin: 0px auto;
 }
