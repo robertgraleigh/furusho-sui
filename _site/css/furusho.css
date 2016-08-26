@@ -545,6 +545,16 @@ h5.about__lead-quote:before {
   display: none;
 }
 
+.font-light {
+	font-weight:300;
+}
+.font-black {
+	color:#4A4A4A
+}
+
+
+/* CLOSE BUTTON ON MODALS */
+
 .marquee--captioned:after {
 	display: block;
 	position: absolute;
