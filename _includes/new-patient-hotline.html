@@ -1,6 +1,6 @@
-<!-- 
+<!--
 	Section: #new-patient-hotline
--->	
+-->
 <section id="new-patient-hotline" class="ui furusho light-blue-segment-bg margin-bottom">
 	<div class="ui container">
 		<div class="ui centered padded grid">
@@ -10,7 +10,7 @@
 					<h2 class="ui furusho xtra-dark-purple-txt">(888) 540-7885</h2>
 				</div>
 				<div class="ui six wide column">
-					<a class="ui massive purple button furusho purple-btn">Request Appointment</a>
+					<a class="ui massive purple button furusho purple-btn appt-modal-pop">Request Appointment</a>
 				</div>
 			</div>
 			<div class="ui row">
@@ -23,6 +23,8 @@
 		</div>
 	</div>
 </section>
-<!-- 
+<!--
 	/ #new-patient-hotline
--->	
+-->
+
+{% include request-appointment-modal.html %}
