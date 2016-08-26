@@ -89,5 +89,14 @@ $(document).ready(function() {
     autoplaySpeed: 4000,
     arrows: false
   });
+
+  $('.marquee__slider--tour').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    autoplay: true,
+    autoplaySpeed: 4000
+  });
   
 });
