@@ -519,3 +519,11 @@ h5.about__lead-quote:before {
   padding: 0 0 0 30px;
   display: none;
 }
+
+/* CLOSE BUTTON ON MODALS */
+#request-appt-modal > i {
+	position:relative;
+	left:-15px;
+	top:10px;
+	color:#000;
+}

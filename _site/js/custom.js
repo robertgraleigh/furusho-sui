@@ -60,8 +60,10 @@ $(document).ready(function() {
     .modal('attach events', '.tanisha.card', 'show');
   //Request Appointment modal
   $('#request-appt-modal')
-    .modal('setting', 'closeable', true)
-    .modal('attach events', '.appt-modal-pop');
+    .modal('attach events', '.appt-modal-pop', 'show');
+  $('.close').on("click", function() {
+      $(this).parents('div').hide();
+  })
 
 
 
