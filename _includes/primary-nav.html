@@ -3,10 +3,10 @@
 -->
 <nav id="primary-nav" class="ui sticky fluid seven item menu">
 	<li class="ui item">
-		<a href="{% unless page.title == Furusho %}index.html{% endunless %}#new-patient-specials" data-scrollto="#new-patient-specials" class="furusho yellow-txt uppercase-txt">New Patient Specials</a>
+		<a href="{% unless page.title == Furusho %}index.html{% endunless %}#new-patient-specials" data-offset="00" data-scrollto="#new-patient-specials" class="furusho yellow-txt uppercase-txt">New Patient Specials</a>
 	</li>
 	<li class="ui item">
-		<a href="#patient-reviews" data-offset="300" class="furusho light-green-txt uppercase-txt">Patient Reviews</a>
+		<a href="{% unless page.title == Furusho %}index.html{% endunless %}#patient-reviews" data-offset="00" class="furusho light-green-txt uppercase-txt">Patient Reviews</a>
 	</li>
 	<li class="ui item">
 		<a href="meet-the-team.html" class="furusho white-txt uppercase-txt">Meet the Team</a>
@@ -27,19 +27,3 @@
 <!--
 	/#primary-nav
 -->
-
-<div class="ui borderless main menu furusho purple-bg">
-	<a href="#" class="ui right floated dropdown item">
-		<i class="fa fa-bars fa-fw furusho white-txt"></i><span class="furusho white-txt">MENU</span>
-		<i class="fa fa-caret-down fa-fw furusho white-txt"></i>
-		<div class="menu">
-			<div class="item">New Patient Specials</div>
-			<div class="item">Patient Reviews</div>
-			<div class="item">Meet The Team</div>
-			<div class="item">Patients</div>
-			<div class="item">Services</div>
-			<div class="item">Infant Frenectomy</div>
-			<div class="item">Contact</div>
-		</div>
-	</a>
-</div>

@@ -19,7 +19,7 @@
 				content='Pediatric Dentists Cissy Furusho, Kirk Kollmann and Marvin Berman offer dentistry for children, kids, and teens in the Chicago area!'/>
 	<meta name="author" content="Hello World"/>
 
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans|Raleway" rel="stylesheet">
 
 	<!--Font Awesome Icons-->
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
@@ -42,11 +42,10 @@
 	<!--
 		Semantic UI: version xx.xx
 	-->
-	<link rel="stylesheet" href="css/slick-theme.css">
-
-	<link rel="stylesheet" href="/css/furusho.css" type="text/css">
 
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="/css/furusho.css" type="text/css">
+	<link rel="stylesheet" href="css/slick-theme.css">
 
 	<!--Slick Carousel-->
 	<link rel="stylesheet" href="css/slick/slick.css">
@@ -57,13 +56,14 @@
 -->
 </html>
 
+
 <!--
 	Header: Primary Header
 -->
 <header id="primary-header" class="">
 	<div class="ui padded grid">
 		<div class="ui row">
-			<div class="ui seven wide left aligned column">
+			<div class="ui eight wide left aligned column">
 				<a href="index.html">
 					<img src="/img/furusho-masthead-logo.png" class="ui responsive image" alt="Dentistry for Kids logo">
 				</a>
@@ -95,10 +95,10 @@
 -->
 <nav id="primary-nav" class="ui sticky fluid seven item menu">
 	<li class="ui item">
-		<a href="index.html#new-patient-specials" data-scrollto="#new-patient-specials" class="furusho yellow-txt uppercase-txt">New Patient Specials</a>
+		<a href="index.html#new-patient-specials" data-offset="00" data-scrollto="#new-patient-specials" class="furusho yellow-txt uppercase-txt">New Patient Specials</a>
 	</li>
 	<li class="ui item">
-		<a href="#patient-reviews" data-offset="300" class="furusho light-green-txt uppercase-txt">Patient Reviews</a>
+		<a href="index.html#patient-reviews" data-offset="00" class="furusho light-green-txt uppercase-txt">Patient Reviews</a>
 	</li>
 	<li class="ui item">
 		<a href="meet-the-team.html" class="furusho white-txt uppercase-txt">Meet the Team</a>
@@ -120,21 +120,6 @@
 	/#primary-nav
 -->
 
-<div class="ui borderless main menu furusho purple-bg">
-	<a href="#" class="ui right floated dropdown item">
-		<i class="fa fa-bars fa-fw furusho white-txt"></i><span class="furusho white-txt">MENU</span>
-		<i class="fa fa-caret-down fa-fw furusho white-txt"></i>
-		<div class="menu">
-			<div class="item">New Patient Specials</div>
-			<div class="item">Patient Reviews</div>
-			<div class="item">Meet The Team</div>
-			<div class="item">Patients</div>
-			<div class="item">Services</div>
-			<div class="item">Infant Frenectomy</div>
-			<div class="item">Contact</div>
-		</div>
-	</a>
-</div>
 
 <!--
 	Header: Primary Header
@@ -240,7 +225,7 @@
 	/ #new-patient-hotline
 -->
 
-<div id="request-appt-modal" class="ui modal">
+<div id="request-appt-modal" class="ui standard modal">
     <i class="close icon"></i>
     <div class="header">
         <h4 class="modal-title">Request an Appointment</h4>

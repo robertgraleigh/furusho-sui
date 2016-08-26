@@ -19,7 +19,7 @@
 				content='Pediatric Dentists Cissy Furusho, Kirk Kollmann and Marvin Berman offer dentistry for children, kids, and teens in the Chicago area!'/>
 	<meta name="author" content="Hello World"/>
 
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans|Raleway" rel="stylesheet">
 
 	<!--Font Awesome Icons-->
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
@@ -42,11 +42,10 @@
 	<!--
 		Semantic UI: version xx.xx
 	-->
-	<link rel="stylesheet" href="css/slick-theme.css">
-
-	<link rel="stylesheet" href="/css/furusho.css" type="text/css">
 
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="/css/furusho.css" type="text/css">
+	<link rel="stylesheet" href="css/slick-theme.css">
 
 	<!--Slick Carousel-->
 	<link rel="stylesheet" href="css/slick/slick.css">
@@ -57,13 +56,14 @@
 -->
 </html>
 
+
 <!--
 	Header: Primary Header
 -->
 <header id="primary-header" class="">
 	<div class="ui padded grid">
 		<div class="ui row">
-			<div class="ui seven wide left aligned column">
+			<div class="ui eight wide left aligned column">
 				<a href="index.html">
 					<img src="/img/furusho-masthead-logo.png" class="ui responsive image" alt="Dentistry for Kids logo">
 				</a>
@@ -95,10 +95,10 @@
 -->
 <nav id="primary-nav" class="ui sticky fluid seven item menu">
 	<li class="ui item">
-		<a href="index.html#new-patient-specials" data-scrollto="#new-patient-specials" class="furusho yellow-txt uppercase-txt">New Patient Specials</a>
+		<a href="index.html#new-patient-specials" data-offset="00" data-scrollto="#new-patient-specials" class="furusho yellow-txt uppercase-txt">New Patient Specials</a>
 	</li>
 	<li class="ui item">
-		<a href="#patient-reviews" data-offset="300" class="furusho light-green-txt uppercase-txt">Patient Reviews</a>
+		<a href="index.html#patient-reviews" data-offset="00" class="furusho light-green-txt uppercase-txt">Patient Reviews</a>
 	</li>
 	<li class="ui item">
 		<a href="meet-the-team.html" class="furusho white-txt uppercase-txt">Meet the Team</a>
@@ -120,21 +120,6 @@
 	/#primary-nav
 -->
 
-<div class="ui borderless main menu furusho purple-bg">
-	<a href="#" class="ui right floated dropdown item">
-		<i class="fa fa-bars fa-fw furusho white-txt"></i><span class="furusho white-txt">MENU</span>
-		<i class="fa fa-caret-down fa-fw furusho white-txt"></i>
-		<div class="menu">
-			<div class="item">New Patient Specials</div>
-			<div class="item">Patient Reviews</div>
-			<div class="item">Meet The Team</div>
-			<div class="item">Patients</div>
-			<div class="item">Services</div>
-			<div class="item">Infant Frenectomy</div>
-			<div class="item">Contact</div>
-		</div>
-	</a>
-</div>
 
 <section id="marquee-1" class="margin-bottom">
 
@@ -147,7 +132,7 @@
           <img src="img/slide1.jpg" alt="">
 
 
-          <div class="slide-container">
+          <div id="marquee-slide-container" class="slide-container">
 
             <div class="ui padded grid">
               <div class="ui row">
@@ -234,9 +219,9 @@
     <div class=" about__first-section furusho lightgray-bg">
       <div class="row">
         <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-          <h5 class="about__lead-quote">
+          <h5 class="about__lead-quote open-sans">
             We’ve been fortunate to help thousands of kids grow into fearless adult patients who enjoy visiting the dentist. We would be honored if you stopped by for a free office tour with your child, and give us an opportunity&nbsp;to&nbsp;earn&nbsp;your&nbsp;trust.</h5>
-          <p class="quoty">–Drs. Kirk Kollmann and Cissy Furusho</p>
+          <h6 class="quoty open-sans">–Drs. Kirk Kollmann and Cissy Furusho</h6>
         </div>
       </div>
     </div>
@@ -272,33 +257,33 @@
 <!--
 	Section: New Patient Specials
 -->
-<section id="new-patient-specials" class="ui inverted">
-	<div class="ui stackable centered padded grid">
+<section id="new-patient-specials" class="ui">
+	<div class="ui centered stackable equal height grid">
 		<div class="ui row">
 			<div class="heading specials__heading heading--small">
-				<h2 class="ui furusho white-txt font-extra-bold">New Patient Specials</h2>
-				<h3 class="ui furusho offer-ends-font white-txt">Offers ends September 20, 2016</h3>
+				<h2 class="ui furusho white-txt font-extra-bold open-sans">New Patient Specials</h2>
+				<h3 class="ui furusho offer-ends-font white-txt open-sans">Offers ends September 20, 2016</h3>
 			</div>
 		</div>
 		<div class="ui row">
 				<div class="ui five wide column">
 					<div class="ui furusho fluid purple card">
 						<div class="ui center aligned content">
-							<h4 class="furusho purple-txt font-bold">Children's New Patient&nbsp;Dental Exam</h4>
-							<span class="price furusho purple-txt">$75</span>
-							<p class="description">Save $57</p>
-							<p class="description">Patients 12 and under receive a professional dental cleaning, fluoride treatment, needed x‑rays, and acomprehensive exam.</p>
-							<p class="ui meta">(D0150, D0272)</p>
+							<h4 class="furusho purple-txt font-bold open-sans">Children's New Patient&nbsp;Dental Exam</h4>
+							<span class="price furusho purple-txt open-sans">$75</span>
+							<p class="description open-sans">Save $57</p>
+							<p class="description open-sans">Patients 12 and under receive a professional dental cleaning, fluoride treatment, needed x‑rays, and acomprehensive exam.</p>
+							<p class="ui meta open-sans">(D0150, D0272)</p>
 						</div>
 					</div>
 			  	</div>
 				<div class="ui five wide column">
 				<div class="ui furusho fluid purple card">
 					<div class="ui center aligned content">
-						<h4 class="furusho purple-txt font-bold">Children's Dental&nbsp;Cleaning and Fluoride</h4>
-						<span class="furusho price purple-txt">$45</span>
-						<p class="ui description">Save $52</p>
-						<p class="ui description">Patients 12 and under receive a professional dental cleaning and topical varnish application. A new patient dental exam is required.</p>
+						<h4 class="furusho purple-txt font-bold open-sans">Children's Dental&nbsp;Cleaning and Fluoride</h4>
+						<span class="furusho price purple-txt open-sans">$45</span>
+						<p class="ui description open-sans">Save $52</p>
+						<p class="ui description open-sans">Patients 12 and under receive a professional dental cleaning and topical varnish application. A new patient dental exam is required.</p>
 						<p class="ui meta">(D1120, D1208)</p>
 					</div>
 				</div>
@@ -308,8 +293,8 @@
 			<div class="ui five wide column">
 				<div class="ui furusho fluid purple card">
 					<div class="ui center aligned content">
-									<h2 class="furusho purple-txt font-bold">FREE</h2>
-				<h3 class="furusho purple-txt offer-ends-font">Prenatal Consultation</h3>
+									<h2 class="furusho purple-txt font-bold open-sans">FREE</h2>
+				<h3 class="furusho purple-txt offer-ends-font open-sans">Prenatal Consultation</h3>
 				<p class="ui description">Expecting parents are encouraged to call us for a brief consultation regarding infant dental care and what to expect in the early years.</p>
 					</div>
 				</div>
@@ -317,8 +302,8 @@
 						<div class="ui five wide column">
 			<div class="ui fluid card furusho purple">
 					<div class="ui center aligned content">
-					<h2 class="furusho purple-txt font-bold">FREE</h2>
-					<h4 class="furusho purple-txt offer-ends-font">Children Under Two</h4>
+					<h2 class="furusho purple-txt font-bold open-sans">FREE</h2>
+					<h4 class="furusho purple-txt offer-ends-font open-sans">Children Under Two</h4>
 					<p class="ui description">Bring your child in before his or her second birthday for a free exam and oral hygiene instruction.</p>
 				</div>
 			</div>
@@ -332,7 +317,7 @@
 -->
 <section id="patient-reviews" class="furusho light-purple-bg">
 	<div class="ui container">
-		<div class="ui grid">
+		<div class="ui padded grid">
 			<div class="ui sixteen wide center aligned column">
 				<h2 class="ui furusho purple-txt">See What Parents are Saying</h2>
 			</div>
@@ -591,7 +576,7 @@
 	/ #new-patient-hotline-address
 -->
 
-<div id="request-appt-modal" class="ui modal">
+<div id="request-appt-modal" class="ui standard modal">
     <i class="close icon"></i>
     <div class="header">
         <h4 class="modal-title">Request an Appointment</h4>

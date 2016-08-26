@@ -222,6 +222,9 @@ a:hover {
 	border:1px solid #FFF;
 	border-radius:0px;
 }
+.ui.purple.button {
+	background-color:#8117B7;
+}
 
 
 
@@ -239,6 +242,7 @@ a:hover {
 #new-patient-specials{
 	background-image: url(/img/specials-bkgd.jpg);
 	background-position: center;
+	padding-bottom:20px;
 }
 
 #patients-header{
@@ -430,6 +434,7 @@ a:hover {
 
 .stars {
 	color: #FFD700;
+	padding-bottom:40px;
 }
 
 /*
@@ -605,4 +610,12 @@ h5.about__lead-quote:before {
 }
 .team-member img {
 	margin: 0px auto;
+}
+
+#marquee-slide-container {
+	padding:30px;
+	padding-top:80px;
+}
+.open-sans {
+	font-family:Open Sans;
 }
